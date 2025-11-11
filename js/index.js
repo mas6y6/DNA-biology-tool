@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
     document.querySelector("#transcription-dna-to-mrna").addEventListener("click",() => {
-        window.location.href = "/transcription.html"
+        window.location.href = "transcription.html"
     });
 });

@@ -53,12 +53,15 @@ button.buttonthing {
     border-style: solid;
     border-radius: 10px;
     border-color: #555555;
-    width: 100%;
+    max-width: 400px;
     height: 50px;
-    font-size: 25px;
-    padding-left: 10px;
-    padding-right: 10px;
+    font-size: 1.5rem;
+    padding: 0 10px;
     transition: background-color 0.25s ease, transform 0.25s ease;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto;
 }
 
 button.buttonthing:hover {
@@ -69,6 +72,7 @@ button.buttonthing:active {
     transform: scale(0.99);
     background-color: #636363;
 }
+
 
 button.button {
     background-color: #7c7c7c;
